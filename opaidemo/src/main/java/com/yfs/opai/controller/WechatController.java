@@ -41,7 +41,7 @@ import java.util.List;
 @RestController
 @Slf4j
 public class WechatController {
-    OpenAiService openAiService = new OpenAiService("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");
+    OpenAiService openAiService = new OpenAiService("sk-****");
     @Autowired
     private RedisUtil redisUtil;
 
